@@ -54,13 +54,5 @@ body {
 }
 
 
-header {
-    display: flex;
-    justify-content: center;
-    
-    border: 1px solid red;
-    width: 100%;
-    max-width: 23.4375rem;
-    padding: 1.5625rem 0;
-}
+
 
