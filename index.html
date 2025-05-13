@@ -16,51 +16,40 @@
         <img src="assets/logo.svg" alt="Logo quicklist">
     </header>
     <main>
-        <div>
-            <img src="assets/icons/left-arrow.svg" alt="Seta voltar">
-            <span>Voltar</span>
+        <section class="topo">
+            <a href="#">
+                <img src="assets/icons/left-arrow.svg" alt="Seta voltar">
+                <span>Voltar</span>
+            </a>
 
             <h1>Compras da semana</h1>
-        </div>
+        </section>
+
         <form action="">
             <input type="text" id="inputItem" placeholder="Adicione um novo item">
             <button>Adicionar item</button>
         </form>
 
-        <div>
-            <input type="checkbox" name="item" id="item">
-            <span>Pão-de-forma</span>
-            <img src="assets/icons/trash.svg" alt="">
-        </div>
+        <ul class="lista">
+            <li>
+                <input type="checkbox" id="item1">
+                <label for="item1">Pão-de-forma</label>
+                <img src="assets/icons/trash.svg" alt="Remover item">
+            </li>
 
-        <div>
-            <input type="checkbox" name="item" id="item">
-            <span>Café preto</span>
-            <img src="assets/icons/trash.svg" alt="">
-        </div>
-
-        <div>
-            <input type="checkbox" name="item" id="item">
-            <span>Suco de laranja</span>
-            <img src="assets/icons/trash.svg" alt="">
-        </div>
-
-        <div>
-            <input type="checkbox" name="item" id="item">
-            <span>Bolacha</span>
-            <img src="assets/icons/trash.svg" alt="">
-        </div>
-
-        <div>
-            <img src="assets/icons/warning-filled.svg" alt="">
+            <li>
+                <input type="checkbox" id="item2">
+                <label for="item2">Café preto</label>
+                <img src="assets/icons/trash.svg" alt="Remover item">
+            </li>
+        </ul>
+        
+        <div class="mensagem mensagem-removido">
+            <img src="assets/icons/warning-filled.svg" alt="Aviso">
             <span>O item foi removido da lista</span>
-            <img src="assets/icons/delete-small.svg" alt="">
-        </div>
-
-        <div>
-            <img src="assets/icons/warning-filled.svg" alt="">
-            <span>O item foi adicionado à lista</span>
-            <img src="assets/icons/delete-small.svg" alt="">
+            <button class="fechar">
+                <img src="assets/icons/delete-small.svg" alt="Fechar mensagem">
+            </button>
         </div>
     </main>
 </body>
