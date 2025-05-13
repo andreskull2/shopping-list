@@ -53,14 +53,3 @@ body {
     flex-direction: column;
 }
 
-main .form-novo-item {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-/* main .form-novo-item input[type="text"] {
-
-} */
-
-
