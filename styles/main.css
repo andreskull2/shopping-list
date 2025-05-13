@@ -1,7 +1,7 @@
 main {
   width: 100%;
   max-width: 23.4375rem;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   padding: 1.5rem;
   /* box-sizing: border-box; */
 }
@@ -83,7 +83,29 @@ main .form-novo-item button:hover {
 }
 
 main .lista-itens li {
+    /* border: 1px solid red; */
+    padding: 1rem;
+    background-color: var(--background-secondary);
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+} 
+
+main .lista-itens li .item-container {
     display: flex;
-    border: 1px solid red;
-    
+    align-items: center;
+    gap: 1rem;
+} 
+
+main .lista-itens li .item-container .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .lista-itens li .item-container .btn-trash {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0;
 } 
