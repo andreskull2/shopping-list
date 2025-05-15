@@ -1,10 +1,42 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 48rem) and (max-width: 64rem) {
+    body {
+        padding: 1.5rem;
+    }
+
+    main, header {
+        max-width: 37.5rem;
+    }
+
+    .topo h1 {
+        font-size: 1.75rem;
+    }
+
+    .form-novo-item {
+        flex-direction: row;
+        gap: 0.75rem;
+    }
+
+    .form-novo-item input {
+        flex: 1;
+    }
+
+    .form-novo-item button {
+        width: auto;
+        padding: 0.75rem 1.5rem;
+    }
+
+    .toast-removido {
+        max-width: 37.5rem;
+    }
+}
+
+@media screen and (min-width: 64rem) {
     body {
         padding: 2rem;
     }
 
     main, header {
-        max-width: 768px;
+        max-width: 48rem;
     }
 
     .topo h1 {
@@ -26,7 +58,7 @@
     }
 
     .toast-removido {
-        max-width: 768px;
+        max-width: 48rem;
     }
 }
 
