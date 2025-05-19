@@ -48,3 +48,5 @@ HTML e CSS concluidos com sucesso. Até o momento foram 10h e 30min para conclui
 ## Agora começa o Javascript
 A partir da aula de lógica de programação, fiz um algoritimo para me auxiliar na criação do código.
 
+# Método 5Qs para montar um algoritimo:
+Analise criticamente o problema e descubra: (Tente explicar este problema para você mesmo em voz alta e peça mais informações, investigue mais até você compreender completamente o problema)
