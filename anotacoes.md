@@ -44,3 +44,7 @@ Bons estudos e boa prática! 💜
 --- 
 ### HTML/CSS
 HTML e CSS concluidos com sucesso. Até o momento foram 10h e 30min para concluir a parte de estrutura e estilização do aplicativo da lista de compras. Todo visual está pronto, agora preciso me concentrar na inteligencia da aplicação. Para isso, vou rever a aula de lógica de programação para tentar criar um algorítimo para essa aplicação. Verificar tamvém a aula da Rafaela Ballerini sobre esse assunto. 
+
+## Agora começa o Javascript
+A partir da aula de lógica de programação, fiz um algoritimo para me auxiliar na criação do código.
+
