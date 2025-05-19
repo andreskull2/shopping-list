@@ -50,3 +50,33 @@ A partir da aula de lógica de programação, fiz um algoritimo para me auxiliar
 
 # Método 5Qs para montar um algoritimo:
 Analise criticamente o problema e descubra: (Tente explicar este problema para você mesmo em voz alta e peça mais informações, investigue mais até você compreender completamente o problema)
+
+1. Quais são os dados de entrada necessários?
+Descrição do item a se comprar
+
+2. O que devo fazer com estes dados?
+Adicioná-lo a uma lista de compras
+
+3. Quais são as restrições do problema?
+Não podem ser inseridos apenas números, caracteres especiais ou emojis
+
+4. Qual é o resultado esperado?
+Espera-se que os itens sejam organizados e exibidos conforme a lista de compras vá sendo formada
+
+5. Qual é a sequencia de passos a ser feita para chegar ao resultado esperado?
+    1 - Usuário digita o nome do item.
+
+    2- Ao clicar no botão "Adicionar":
+        a. Verifica se o campo está vazio ou contém só números/caracteres especiais.
+            – Se estiver errado, mostra aviso e para aqui.
+            – Se estiver certo, continua.
+
+    3- Cria um novo item com nome digitado.
+
+    4- Adiciona esse item na lista visível.
+
+    5- Se o usuário clicar na checkbox, o item aparece riscado.
+
+    6- Se clicar na lixeira, o item é removido da lista.
+
+    7- Exibe uma mensagem confirmando que o item foi deletado.
